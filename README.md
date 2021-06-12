@@ -7,6 +7,17 @@ Rename your Github branch from its current default (likely "master"), to a new d
 
 Can be run against a single repo, or all repos the user owns
 
+After the default branch has been renamed, contributors to the repo will see
+![Branch has been renamed](https://github.com/Jmainguy/ghdefaultbranch/blob/main/docs/main.png?raw=true)
+
+Which asks the user to run the following on their local copy (assuming an old name of master, and a new name of main)
+```
+git branch -m master main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
+```
+
 ## Usage
 By default without arguments, this program will print all repos the token has access to.
 
