@@ -35,14 +35,17 @@ func getRepo(token, ownerRepo string) *github.Repository {
 
 func getUserRepos(ctx context.Context, client *github.Client) ([]*github.Repository, error) {
 	var repos []*github.Repository
-	var opts = github.RepositoryListOptions{}
-	opts.PerPage = 100
-	opts.Page = 1
-	opts.Affiliation = "owner,collaborator"
+	opts := &github.RepositoryListByAuthenticatedUserOptions{
+		ListOptions: github.ListOptions{
+			PerPage: 100,
+			Page:    1,
+		},
+		Affiliation: "owner,collaborator",
+	}
 
 	// loop through user repository list
 	for opts.Page > 0 {
-		list, resp, err := client.Repositories.List(ctx, "", &opts)
+		list, resp, err := client.Repositories.ListByAuthenticatedUser(ctx, opts)
 		if err != nil {
 			return nil, err
 		}
