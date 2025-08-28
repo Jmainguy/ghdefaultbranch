@@ -3,10 +3,11 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/google/go-github/v32/github"
-	"golang.org/x/oauth2"
 	"os"
 	"strings"
+
+	"github.com/google/go-github/v74/github"
+	"golang.org/x/oauth2"
 )
 
 func getRepo(token, ownerRepo string) *github.Repository {
