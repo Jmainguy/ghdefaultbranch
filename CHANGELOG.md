@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/Jmainguy/ghdefaultbranch/compare/v1.0.0...v1.0.1) (2025-09-08)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([1d7c02d](https://github.com/Jmainguy/ghdefaultbranch/commit/1d7c02d7f34995b1c5af939653ca5925724401cb))
+* **deps:** update all non-major dependencies ([df44ae9](https://github.com/Jmainguy/ghdefaultbranch/commit/df44ae947b0b9ed61537adf0e7645440a6142611))
+
 ## [1.0.0](https://github.com/Jmainguy/ghdefaultbranch/compare/v0.1.0...v1.0.0) (2025-08-28)
 
 
