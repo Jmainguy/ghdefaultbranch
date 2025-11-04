@@ -4,6 +4,7 @@ go 1.25
 
 require (
 	github.com/google/go-github/v74 v74.0.0
+	github.com/google/go-github/v77 v77.0.0
 	golang.org/x/oauth2 v0.31.0
 	golang.org/x/term v0.35.0
 )
