@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.2](https://github.com/Jmainguy/ghdefaultbranch/compare/v1.0.1...v1.0.2) (2025-11-10)
+
+
+### Bug Fixes
+
+* update dependencies ([c2e183b](https://github.com/Jmainguy/ghdefaultbranch/commit/c2e183b963c23092a4a02514431955f866410896))
+* update go.mod dependencies ([67de35c](https://github.com/Jmainguy/ghdefaultbranch/commit/67de35c522655f08ac9ce9eb8ccfa4f7d374c428))
+
 ## [1.0.1](https://github.com/Jmainguy/ghdefaultbranch/compare/v1.0.0...v1.0.1) (2025-09-08)
 
 
