@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.3](https://github.com/Jmainguy/ghdefaultbranch/compare/v1.0.2...v1.0.3) (2025-11-13)
+
+
+### Bug Fixes
+
+* **deps:** update module golang.org/x/term to v0.37.0 ([47727db](https://github.com/Jmainguy/ghdefaultbranch/commit/47727db5b84078c66c2322d34ae65116f94a4a29))
+* **deps:** update module golang.org/x/term to v0.37.0 ([9f12ea9](https://github.com/Jmainguy/ghdefaultbranch/commit/9f12ea92a3a232d549fd151acc2b63ac2e85fe93))
+
 ## [1.0.2](https://github.com/Jmainguy/ghdefaultbranch/compare/v1.0.1...v1.0.2) (2025-11-10)
 
 
