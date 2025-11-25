@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.3](https://github.com/Jmainguy/ghdefaultbranch/compare/v1.0.2...v1.0.3) (2025-11-25)
+
+
+### Bug Fixes
+
+* **deps:** update module github.com/google/go-github/v78 to v79 ([e5e1ec8](https://github.com/Jmainguy/ghdefaultbranch/commit/e5e1ec85eb784b8f9e9c7cfb3cdf9e9782cc5f97))
+* **deps:** update module github.com/google/go-github/v78 to v79 ([dc1410e](https://github.com/Jmainguy/ghdefaultbranch/commit/dc1410e77c2c3ce6e0f61a5abfeb2d0988e8eab3))
+* **deps:** update module golang.org/x/term to v0.37.0 ([47727db](https://github.com/Jmainguy/ghdefaultbranch/commit/47727db5b84078c66c2322d34ae65116f94a4a29))
+* **deps:** update module golang.org/x/term to v0.37.0 ([9f12ea9](https://github.com/Jmainguy/ghdefaultbranch/commit/9f12ea92a3a232d549fd151acc2b63ac2e85fe93))
+
 ## [1.0.2](https://github.com/Jmainguy/ghdefaultbranch/compare/v1.0.1...v1.0.2) (2025-11-10)
 
 
